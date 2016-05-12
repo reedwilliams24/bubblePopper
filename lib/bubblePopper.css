@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gameView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1100px;
+}
+
+.canvasContainer {
+  height: 100%;
+}
+
+.gameInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 600px;
+  justify-content: space-around;
+}
