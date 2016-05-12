@@ -43,6 +43,7 @@ h2 {
   background: white;
   border-width: 1px;
   border-style: solid;
+  border-radius: 5px;
 }
 
 input {
@@ -51,21 +52,34 @@ input {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 14px;
-  padding: 5px 10px 5px 10px;
+  padding: 7px 15px 7px 15px;
+  border: none;
 }
 
 input:hover {
-  background: #3cb0fd;
+  cursor: pointer;
 }
 /*["#008744", "#0057e7", "#d62d20", "#ffa700", "#fff4e6"]*/
 #restart {
   background: #008744;
 }
 
+#restart:hover {
+  background: #00460a;
+}
+
 #solve {
   background: #0057e7;
 }
 
+#solve:hover {
+  background: #00449a;
+}
+
 #info {
   background: #ffa700;
+}
+
+#info:hover {
+  background: #dc9b1f;
 }
