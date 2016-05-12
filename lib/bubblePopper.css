@@ -2,10 +2,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgb(201,201,201);
 }
 
-h1 {
+h2 {
   text-align: center;
+  margin: 0px;
+  margin-bottom: 8px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .gameView {
@@ -17,6 +21,9 @@ h1 {
 
 .canvasContainer {
   height: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
 }
 
 .gameInfo {
@@ -26,4 +33,39 @@ h1 {
   height: 100%;
   width: 600px;
   justify-content: space-around;
+}
+
+#scoreValue {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+input {
+  background: #3498db;
+  border-radius: 28px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+}
+
+input:hover {
+  background: #3cb0fd;
+}
+/*["#008744", "#0057e7", "#d62d20", "#ffa700", "#fff4e6"]*/
+#restart {
+  background: #008744;
+}
+
+#solve {
+  background: #0057e7;
+}
+
+#info {
+  background: #ffa700;
 }
