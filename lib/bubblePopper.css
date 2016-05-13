@@ -12,6 +12,15 @@ h2 {
   font-family: 'Roboto', sans-serif;
 }
 
+#winnerBanner {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #0057e7;
+}
+
 .gameView {
   display: flex;
   flex-direction: column;
