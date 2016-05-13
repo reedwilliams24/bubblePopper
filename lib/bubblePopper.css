@@ -21,6 +21,15 @@ h2 {
   color: #0057e7;
 }
 
+#loserBanner {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #d62d20;
+}
+
 .gameView {
   display: flex;
   flex-direction: column;
