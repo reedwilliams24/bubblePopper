@@ -2,22 +2,27 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgb(201,201,201);
+  background: #C9F9FF;
+  margin: 0px;
 }
 
 h2 {
   text-align: center;
   margin: 0px;
-  margin-bottom: 8px;
-  font-family: 'Roboto', sans-serif;
+  /*margin-bottom: 8px;*/
+  font-family: 'Chewy', cursive;
+  font-size: 32px;
+  color: white;
+  -webkit-text-stroke: 0.1px black;
 }
 
 #winnerBanner {
   text-align: center;
   margin: 0px;
   margin-bottom: 8px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Chewy', cursive;
+  font-size: 32px;
   color: #0057e7;
 }
 
@@ -25,8 +30,9 @@ h2 {
   text-align: center;
   margin: 0px;
   margin-bottom: 8px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Chewy', cursive;
+  font-size: 32px;
   color: #d62d20;
 }
 
@@ -35,13 +41,14 @@ h2 {
   flex-direction: column;
   align-items: center;
   height: 650px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: grey;
 }
 
 .canvasContainer {
   height: 100%;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 4px;
 }
 
 .gameInfo {
@@ -51,17 +58,17 @@ h2 {
   height: 100%;
   width: 100%;
   justify-content: space-around;
+  border-top: 1px solid grey;
+  background-color: #79D33E;
 }
 
 #scoreValue {
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 5px;
-  padding-left: 5px;
-  background: white;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 5px;
+  background: #FDFFFC;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 16px;
+  padding: 7px 7px 7px 7px;
+  border: 1px solid grey;
 }
 
 input {
@@ -69,7 +76,7 @@ input {
   border-radius: 28px;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   padding: 7px 15px 7px 15px;
   border: none;
 }
@@ -79,15 +86,17 @@ input:hover {
 }
 /*["#008744", "#0057e7", "#d62d20", "#ffa700", "#fff4e6"]*/
 #restart {
-  background: #008744;
+  background: #0056A8;
+  border: 1px solid grey;
 }
 
 #restart:hover {
-  background: #00460a;
+  background: #061A7C;
 }
 
 #solve {
   background: #0057e7;
+  border: 1px solid grey;
 }
 
 #solve:hover {
@@ -95,9 +104,14 @@ input:hover {
 }
 
 #info {
-  background: #ffa700;
+  background: #E83F6F;
+  border: 1px solid grey;
 }
 
 #info:hover {
-  background: #dc9b1f;
+  background: #C6194A;
+}
+
+input:focus {
+  outline: none;
 }
