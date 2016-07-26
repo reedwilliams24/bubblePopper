@@ -7,5 +7,5 @@ The goal of the game is to pop all of the bubbles. Bubble clusters of 3 or more 
 <div>
   <img src="https://raw.githubusercontent.com/reedwilliams24/bubblePopper/master/docs/screen_shot_1.png" width='387' height='522'>
   <img src="https://raw.githubusercontent.com/reedwilliams24/bubblePopper/master/docs/screen_shot_2.png" width='387' height='522'>
-  <img src="https://raw.githubusercontent.com/reedwilliams24/bubblePopper/master/docs/bubble_pop.gif" width='387' height='522'>
+  <img src="https://raw.githubusercontent.com/reedwilliams24/bubblePopper/master/docs/BubblePop.gif" width='387' height='522'>
 </div>
